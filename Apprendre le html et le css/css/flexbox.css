@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: black;
+    height: 100vh;
+}
+
+.container{
+    width: 50%;
+    height: 600px;
+    background: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.items{
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+   
+    
+    
+}
+
+.item1{
+    background: red;
+   order: 5;
+    
+}
+
+.item2{
+    
+    background: yellow;
+    order: 2;
+}
+
+.item3{
+    
+    background: green;
+    order: 4;
+}
+
+.item4{
+    
+    background: blue;
+    order: 3;
+    
+}
+
+.item5{
+    
+    background: whitesmoke;
+    order: 1;
+}

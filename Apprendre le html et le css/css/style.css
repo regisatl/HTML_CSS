@@ -1,0 +1,31 @@
+*, ::before, ::after{
+	box-sizing: border-box ;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background: #08070733;
+	font-family: time new roman, sans-serif;
+}
+.container{
+	position: absolute;
+	width: 700px;
+	padding: 50px;
+	background: rgb(247, 246, 246);
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 10px;
+	box-shadow: 0 10px 10px rgb(0, 0, 0, 0.9);
+}
+.circle{
+	width: 200px;
+	height: 200px;
+	background-size: cover;
+	background-position: center;
+	border-radius: 50%;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	shape-outside: circle();
+}

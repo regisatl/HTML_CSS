@@ -1,0 +1,20 @@
+table{
+    border: 2px solid black;
+    font-size: 50px;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    
+  
+}
+
+tr{
+    border: 2px solid black;
+   
+}
+
+td{
+    border: 2px solid black;
+    padding: 50px;
+   
+}

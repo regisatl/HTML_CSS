@@ -1,0 +1,39 @@
+/* body{
+    margin: 0;
+    padding: 0;
+    background-color: #3333;
+    height: 100wh;
+} */
+.box{
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    background-color: brown;
+    transform: translate() ;
+    cursor: pointer;
+}
+.box:active{
+    background: blue;
+}
+
+.inputText{
+    margin: 20px;
+    width: 250px;
+
+}
+.inputText:focus{
+    background: grey;
+}
+button{
+    text-align: center;
+    margin: 20px;
+    border-radius: 5px;
+   
+}
+.btn:active{
+    background: blue;
+}
+.txt:hover{
+    background: red;
+
+}
